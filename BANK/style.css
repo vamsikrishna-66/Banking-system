@@ -1,0 +1,133 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, rgb(115, 114, 175) , rgb(206, 99, 28)) !important;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+}
+
+.bg-light{
+    background-color:rgb(160, 160, 160);
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+
+    text-align: center;
+    margin-left: 35rem;
+}
+
+.nav-link{
+    color: rgb(3, 219, 226);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:rgb(151, 23, 202);
+}
+
+.hero-content{
+    height: 60vh;
+    
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+    border-radius: 100px;
+    border-style:ridge;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color:red! important;
+
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #435d6b;
+
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+
+footer{
+  margin-top: 200px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+    position: relative;
+}
+
+
+.linkedin{
+    color: #0077b5;
+}
+h1{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: red;
+
+}
+h2{
+    text-align:center;
+    padding-bottom: 10%;
+    color: black;
+}
